@@ -1,9 +1,13 @@
 {
-  "name": "package.json",
+  "name": "hello-world",
   "version": "0.0.1",
   "description": "\"A simple Hello World Node App\",",
+  "engines": {
+    "node": "12.x"
+  },
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
   },
   "repository": {
@@ -12,6 +16,7 @@
   },
   "keywords": [
     "\"node.js\""
+    "\"heroku\""
   ],
   "author": "colbynelson",
   "license": "ISC",

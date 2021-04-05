@@ -1,17 +1,16 @@
-1 const http = require('http');
-2
-3 const port = process.env.PORT || 5000;
-4
-5 const server = http.createServer((request, response) => {
-6 	  resonse.statusCode = 200;
-7	  response.setHeader('Content-Type', 'text/plain');
-8         response.end('Hello World\n\nCool!');
-9 });
-10
-11 server.listen(port, (err) => {
-12	   if (err) {
-13		   return console.log('Something went wrong ', err);
-14	   }
-15 	   console.log('Server Listening on: ${port}');
-16 });
-17
+const http = require('http');
+
+const port = process.env.PORT || 5000;
+
+const server = http.createServer((request, response) => {
+ 	resonse.statusCode = 200;
+	response.setHeader('Content-Type', 'text/plain');
+    response.end('Hello World\n\nCool!');
+});
+
+server.listen(port, (err) => {
+	if (err) {
+		return console.log('Something went wrong ', err);
+	}
+ 	console.log('Server Listening on: ${port}');
+});

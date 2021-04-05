@@ -1,24 +1,16 @@
 {
-  "name": "hello-world",
-  "version": "0.0.1",
-  "description": "\"A simple Hello World Node App\",",
-  "engines": {
-    "node": "12.x"
-  },
+  "name": "hello-world-s21",
+  "version": "1.0.0",
+  "description": "A simple Hello World Node App",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/toughmuffin12/node-hello-world-s21.git"
   },
-  "keywords": [
-    "\"node.js\""
-    "\"heroku\""
-  ],
-  "author": "colbynelson",
+  "author": "Colby Nelson",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/toughmuffin12/node-hello-world-s21/issues"
